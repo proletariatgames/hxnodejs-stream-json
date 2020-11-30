@@ -1,4 +1,4 @@
-package externs.npm.streamjson;
+package js.npm.stream_json;
 
 import js.node.stream.Transform;
 import js.node.stream.Transform.TransformNewOptions;
