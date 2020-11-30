@@ -1,0 +1,14 @@
+{
+  "name": "hxnodejs-stream-json",
+  "url": "https://github.com/proletariatgames/hxnodejs-stream-json",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["nodejs", "stream", "json", "stream-json"],
+  "description": "Externs for the stream-json NPM module",
+  "releasenote": "Initial release",
+  "version": "1.0.1",
+  "contributors": ["Proletariat", "ProletariatDev1"],
+  "dependencies": {
+    "hxnodejs": ""
+  }
+}
