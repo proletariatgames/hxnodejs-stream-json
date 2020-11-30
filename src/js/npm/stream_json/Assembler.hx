@@ -2,6 +2,7 @@ package js.npm.stream_json;
 
 import haxe.extern.EitherType;
 import js.node.events.EventEmitter;
+import js.node.Stream.IStream;
 import js.node.stream.Readable;
 
 interface Token {
@@ -82,5 +83,5 @@ extern class Assembler extends EventEmitter<Assembler> {
   /**
   This static method creates an Assembler instance, connects it to a token stream, and returns the instance.
   **/
-  static function connectTo(stream:Stream):Assembler;
+  static function connectTo(stream:IStream):Assembler;
 }
